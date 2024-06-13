@@ -1,0 +1,104 @@
+/** body **/
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    background-color:#f5deb5;
+}
+/** fonts **/
+h1,h2,h3,h4,h5,h6{
+    font-family: "Poppins", sans-serif;
+}
+p,a,li,figcaption{
+    font-family: "Roboto", sans-serif;
+    font-size: 1.2em;/** this equals about 20 px **/
+    text-decoration: none;
+}
+
+/** header **/
+header{
+    display: flex;
+    align-items: center;
+    background-color: #f5deb5;
+    height: 125px;
+}
+header > div{
+    flex-basis:60%;
+    width: auto;
+    height:125px;
+}
+header > div > a > img{
+    width: auto;
+    height: 100%;
+}
+header > nav > menu{
+    list-style: none;
+    display: flex;
+    flex-basis:40%;
+    padding-left: 0px;
+    margin: 0px;
+}
+header > nav > menu > li > a{
+    color: #0e0e0e;
+    padding: 10px;
+}
+/** masthead **/
+.title{
+    display: flex;
+    text-align: center;
+    background-color: #f5deb5;
+    height: 100vh;
+}
+.title > div{
+    flex: 1;
+}
+.title > div > h1{
+    position: absolute;
+    top: 48%;
+    left: 41%;
+    font-size: 70px;
+    color: #FF4500;
+    text-align: center;
+
+}
+.title > div > a > img{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/** main **/
+main{
+    display: flex;
+}
+main > section{
+    display: flex;
+    padding: 2%;
+}
+main > section > div{
+    padding: 15px;
+}
+main > section > div > img{
+    width: 100%;
+    height: auto;
+}
+/** footer **/
+footer{
+    grid-area: footer;
+    display: flex;
+}
+footer > div > a > img{
+    padding-right: 100px;
+    width: auto;
+    height: 200px;
+    flex-basis: 33%;
+}
+footer > form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 150px;
+    flex-basis: 33%;
+}
